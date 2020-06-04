@@ -10,6 +10,11 @@ public class HelloWorld {
 		System.out.println("Character: " + Character.SIZE/8);		// 2
 		System.out.println("Float: " + Float.SIZE/8);				// 4
 		System.out.println("Double: " + Double.SIZE/8);				// 8
+		// System.out.println("String: " + String.SIZE);				// 8
+		boolean a = true ;
+		System.out.println(a);
+		float f = 300.456f;
+		System.out.println(f);
        
     }
     
