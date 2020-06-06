@@ -1,5 +1,13 @@
+// public static int x = 100
 public class HelloWorld {
-    public static void main(String[] args) {
+
+	void print(String... args){
+		for (String arg:args) {
+			System.out.println(arg);
+		}
+	}
+
+    public static void main(String[] args123) {
         // System.out.println("Hello world.");
 
         // System.out.println("Integer: " + Integer.SIZE/8);			// 4
@@ -21,7 +29,12 @@ public class HelloWorld {
 		System.out.println((-16 & 16) );
 		// String name = "James";
 		// boolean result = name instanceof String; // 由于 name 是 String 类型，所以返回真
-		
+		byte b = 100;
+		System.out.println( (byte)b + 30);
+		// int x = 077;
+		System.out.println( 077);
+
+		new HelloWorld().print("hello", "world","!");
 
     }
     
