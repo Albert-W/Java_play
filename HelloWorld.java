@@ -35,6 +35,8 @@ public class HelloWorld {
 		System.out.println( 077);
 
 		new HelloWorld().print("hello", "world","!");
+		assert b > 110 : "b must > 11jav0";
+
 
     }
     
