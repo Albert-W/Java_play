@@ -38,6 +38,12 @@ public class HelloWorld {
 		assert b > 110 : "b must > 11jav0";
 
 
+		String s = "Hello";
+        System.out.println(s);
+        s.toUpperCase();
+		System.out.println(s);
+	
+
     }
     
 }
