@@ -42,6 +42,10 @@ public class HelloWorld {
         System.out.println(s);
         s.toUpperCase();
 		System.out.println(s);
+
+		int[] ns = { 68, 79, 91, 85, 62 };
+		System.out.println(ns.toString());
+		System.out.println({ 68, 79, 91, 85, 62 });
 	
 
     }
