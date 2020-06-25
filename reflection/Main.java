@@ -15,9 +15,13 @@ public class Main {
         }
         Class cls1 = p1.A.class;
         System.out.println(cls1.getName());
+        // Object o = cls1.newInstance(); 
+        Object o = cls1.getConstructor().newInstance();
+        p1.A a = (p1.A)o;
+        System.out.println(a.a());
 
-        //常规
-        p1.A a = new p1.A();
+        
+        // p1.A a = new p1.A();
         Class cls2 = a.getClass();
         System.out.println(cls2.getName());
 
