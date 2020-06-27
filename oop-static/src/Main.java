@@ -14,6 +14,9 @@ public class Main {
 		System.out.println(Person.getCount()); // 2
 		Person p3 = new Person("小军");
 		System.out.println(Person.getCount()); // 3
+		p3 = null;
+		System.gc();
+		System.out.println(Person.getCount());
 	}
 
 }
