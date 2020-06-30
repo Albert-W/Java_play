@@ -30,7 +30,6 @@ public class Main {
     	return trans(n,16);
     }
     
-    
     public static String trans(int num, int base) {
     	String result = "";
         char[] chs ={'0','1','2','3',
@@ -54,12 +53,10 @@ public class Main {
                 '4','5','6','7',
                 '8','9','A','B',
                 'C','D','E','F'};    	
-
         while(num!=0) {
         	result.insert(0, chs[num % base]);
         	num /= base;
         }
-
         return result.toString();	
     }
 }
