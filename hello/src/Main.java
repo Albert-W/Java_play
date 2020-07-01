@@ -7,6 +7,10 @@
 public class Main {
 
 	public static void main(String[] args) {
+		System.out.println("AaAaAa".hashCode());
+		System.out.println("BBAaBB".hashCode());
+		System.out.println(new Pair(1,2).hashCode());
+		
 //		System.out.println( );
 		System.out.println("Hello Java!");
 		
