@@ -15,5 +15,14 @@ public class Tel {
 		String re = "\\d{3,4}-\\d{6,8}";
 		return s.matches(re);
 	}
+	public static void main(String[] args) {
+		System.out.println("2&3".matches("2&3")); //true
+		System.out.println("7\\8"); // 7\8
+		System.out.println("7\\8".matches("7\\\\8")); //true
+		System.out.println("7\t8"); // 7	8
+		System.out.println("7\t8".matches("7\\t8")); //true
+		System.out.println("7\t8".matches("7\\s8")); //true
+		
+	}
 
 }
