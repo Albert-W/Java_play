@@ -71,7 +71,6 @@ public class UserService {
 				try (ResultSet rs = ps.executeQuery()) {
 					if (rs.next()) {
 						re = rs.getString("password");
-						System.out.println(rs.toString());
 					}
 				}
 			}
