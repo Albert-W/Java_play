@@ -1,4 +1,7 @@
 *.jar
 *.war
+*.class
+*\.settings
+*springboot*
 *metadata
 *metadata/*

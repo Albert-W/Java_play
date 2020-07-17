@@ -45,10 +45,28 @@ public class HelloWorld {
 
 		int[] ns = { 68, 79, 91, 85, 62 };
 		System.out.println(ns.toString());
-		System.out.println({ 68, 79, 91, 85, 62 });
+		// System.out.println({ 68, 79, 91, 85, 62 });
 	
-
-    }
+		System.out.println(0.0/0);
+		// System.out.println(0/0);
+		System.out.println(1.0/0);
+		// System.out.println(1/0);
+		System.out.println(-1.0/0);
+		// System.out.println(-1/0);
+		System.out.println((int)(-1.2 + 0.5));
+		System.out.println(Math.round(12.5));
+		System.out.println(Math.round(-12.5));
+		System.out.println("%%");
+		System.out.println("中文 显示");
+		System.out.println("怎样不显示中文 ");
+		System.out.println("怎样不显示汉语");
+		// StringBuilder sb = "hello";
+		// System.out.println(sb.append(" world"));
+	}
+	
+	public class InnerClass {
+		int a = 0;
+	}
     
 }
 
