@@ -3,5 +3,6 @@
 *.class
 *\.settings
 *springboot*
+*.classpath
 *metadata
 *metadata/*
